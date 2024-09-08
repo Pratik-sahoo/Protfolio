@@ -1,0 +1,97 @@
+*{
+    background-color: black;
+    
+}
+body{
+    
+    /* height: 100vh; */
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.navbar{
+    height: 60px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 800px;
+    
+}
+.item{
+    color:white;
+    font-size: 20px;
+    font-weight: 200px;
+    cursor: pointer;
+}
+#home{
+    color: yellow;
+}
+.item:hover{
+    color: orange;
+    font-size: 25px;
+
+}
+.content{
+    height: 0px;
+    width: 0px;
+    color:white;
+    display: inline;
+}
+.content h2,h1,p{
+    margin-left: 50px;
+   
+}
+
+.content h1{
+    color: blueviolet;
+
+}
+.button{
+height: 50px;
+width: 300px;
+padding: 30px;
+}
+
+.button button{
+    background-color: blueviolet;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.footer{
+    height: 70px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.logo img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+}
+.profile{
+    background-image: url(mypic.jpg);
+    height: 600px;
+    width: 600px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-left: 800px;
+    position: absolute;
+
+    
+}
+
+
